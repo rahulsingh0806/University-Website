@@ -1,0 +1,33 @@
+img{
+    border: 2px solid black;
+    margin: 0px auto;
+}
+.head span{
+    color: red;
+}
+.head1{
+    color: #969595;
+    padding: 8px;
+    font-size: 19px;
+}
+.head2{
+    color: #969595;
+    padding: 8px;
+
+}
+.head2 p{
+    font-size: 5px;
+}
+.head{
+    padding: 8px;
+}
+
+.para1{
+    padding: 8px;
+    font-size: 19px;
+}
+.para2{
+    padding: 8px;
+    font-size: 19px;
+    margin-top: -20px;
+}

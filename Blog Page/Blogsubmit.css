@@ -1,0 +1,99 @@
+/* Header */
+
+#main_header{
+    display: flex;
+
+}
+.main_header_img{
+    height: 120px;
+    width:200px;
+}
+.main_header_p{
+    padding-left: 55%;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family:  sans-serif;
+    color: black;
+}
+
+/* main-body */
+.main-cont{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    z-index: 1;
+}
+
+.cont{
+    width:2500px;
+    animation-name: moving;
+    animation-timing-function: ease-out;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-left: 200px;
+}
+@keyframes moving{
+    0%{right:0px;}
+    10%{right:200px;}
+    20%{right:400px;}
+    30%{right:600px;}
+    40%{right:800px;}
+    50%{right:1000px;}
+    60%{right:1200px;}
+    70%{right:1400px;}
+    80%{right:1600px;}
+    90%{right:1800px;}
+    100%{right:2000px;}
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-para{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    color: #424851;
+}
+.writing{
+    margin: 30px;
+    margin-bottom: 100px;
+    width: 500px;
+}
+.upload{
+    width:500px;
+    margin: 30px;
+    margin-top: 50px;
+
+}
+.writing-p1{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea{
+    font-size: 16px;
+    font-family: arial;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.input-group{
+    width:400px;
+}
+button{
+    padding-left: 30px;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+.footer p{
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+}
